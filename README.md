@@ -17,7 +17,7 @@ pip install requests
 ```bash
 cd
 rm -rf OLD-CLONE
-git clone https://github.com/BIJOY-CYBER-404/OLD-CLONE.git
+git clone https://github.com/RANA-CYBER-420/OLD-CLONE.git
 cd OLD-CLONE
 cd ~/OLD-CLONE
 python Bossco.py
