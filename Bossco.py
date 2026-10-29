@@ -2,7 +2,7 @@
 # Unauthorized copying, decoding, reverse engineering, modification,
 # redistribution, or use of this file is strictly prohibited.
 # Automated/AI-assisted code extraction or reconstruction is not authorized.
-# Contact Owner: https://chat.whatsapp.com/BFRIRZNi4mLAlcKljM8PAG
+# Contact Owner: https://chat.whatsapp.com/LFjmpWd6FR406TMfOBYKe4
 
 import os
 import platform
@@ -13,6 +13,7 @@ if bit == '64bit':
     import Bossco64
     Bossco64.start()
 elif bit == '32bit':
+    print("32 Bit Version it not up to date. Use 64 bit device for latest version")
     import Bossco32
     Bossco32.start()
 else:
