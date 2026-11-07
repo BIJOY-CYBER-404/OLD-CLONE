@@ -11,7 +11,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
     import Bossco64
-    Bossco64.start()
+    Bossco64.main_menu()
 elif bit == '32bit':
     print("32 Bit Version it not up to date. Use 64 bit device for latest version")
     import Bossco32
